@@ -37,7 +37,7 @@
 	/// calculate GP value and total credits
 	$gradePoints=0.0; $totalCredits=0;
 	foreach($subjectGrades as $key => $index){ 
-		///echo $index." ";
+		//echo $index." ";
 		//echo $subjectCredits[$key]." ";
 		if($index=='A+'){$gradePoints += 4.25*$subjectCredits[$key]; $totalCredits += $subjectCredits[$key];}
 		else if($index=='A'){$gradePoints += 4*$subjectCredits[$key]; $totalCredits += $subjectCredits[$key];}
